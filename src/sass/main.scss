@@ -1,0 +1,233 @@
+@import 'bulma';
+
+
+.header {
+  border-bottom: 1px solid #EAEAE8;
+  clear: both;
+  background-color: #FFFFFF;
+}
+
+.top {
+  border-bottom: 1px solid #EAEAE8;
+  margin-bottom: 10px;
+  padding: 10px 10px 60px 10px;
+// wont recognize ???????????????
+}
+
+.cart {
+  float: right;
+  color: #666666;
+  margin-left: 30px;
+  padding-left: 30px;
+  border-left: 1px solid #EAEAE8;
+}
+
+.look {
+  background-color: #FBFBF9;
+  width: 400px;
+  height: 31px;
+
+}
+
+.ser {
+  margin: 0px;
+}
+
+h3 {
+  color: #F34E02;
+  font-size: 40px;
+  float: left;
+  margin: auto;
+}
+
+.middle {
+  margin-top: 10px;
+  float: left;
+  margin-left: 20px;
+}
+
+a {
+  float: right;
+  margin-left: 10px;
+  background-color: white;
+  color: #0192C7;
+}
+
+
+.etsy {
+  margin-left: 10px;
+  float: right;
+  color: #0192C7;
+  text-decoration: none;
+}
+
+.etsy:hover {
+  text-decoration: underline;
+}
+
+.bottom {
+  clear: both;
+  margin-bottom: 10px;
+  color: #EAEAE8;
+  font-size: 15px;
+}
+
+.space {
+  margin-left: 30px;
+  color: #666666;
+}
+
+body{
+  clear: both;
+  background-color: #F5F5F1;
+}
+
+
+
+.container {
+  padding: 20px;
+  background-color: #F5F7FA;
+  margin: 0px 0px;
+}
+
+.right {
+  width: 250px;
+  float: left;
+
+}
+
+.bold {
+  font-weight: bolder;
+  color: black;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.catagories {
+  border: 1px solid grey;
+  background-color: white;
+}
+
+.title {
+  margin-left: 5px;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.it {
+  margin-left: 20px;
+  color: #34A8C4;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.it:hover {
+  text-decoration: underline;
+}
+
+
+
+.left {
+  float: left;
+  display: inline-block;
+  width: 850px;
+  margin-left: 10px;
+}
+
+.text {
+
+  margin-bottom: 0px;
+  padding: 20px 0px;
+
+}
+
+.one {
+  float: left;
+}
+
+.two {
+  float: right;
+}
+
+.hold {
+
+  width: 250px;
+  margin: 20px 12px 20px 12px;
+  height: 250px;
+  float: left;
+  background-color: white;
+  border: 1px solid #D4CFD5;
+  position: relative;
+}
+
+
+.info {
+  padding: 5px;
+  background-color: white;
+
+
+}
+
+
+.titl {
+     overflow: hidden;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+     margin-bottom: 2px;
+     color: black;
+
+  }
+  .prod {
+    width: 250px;
+
+  }
+  .icon1{
+    position: absolute;
+    right: 13%;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    down: 2px;
+    float: right;
+    visibility: hidden;
+}
+
+.icon1:hover {
+   visibility: visible;
+}
+
+
+
+  .icon2 {
+    position: absolute;
+    right: 2%;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    down: 2px;
+    float: right;
+    visibility: hidden;
+  }
+  .icon1:hover icon2{
+     visibility: visible;
+  }
+
+  .blu {
+    color: #34A8C4;
+  }
+
+  .blu1 {
+    font-weight: bold;
+    color: black;
+  }
+
+  .black{
+    color: black;
+  }
+
+  .price {
+    color: #77BD45;
+    font-weight: bold;
+    float: right;
+  }
